@@ -1,9 +1,9 @@
-import React, { Fragment } from 'react';
-import PropTypes from 'prop-types';
-import styled from 'styled-components';
 import { darken, rgba } from 'polished';
-import { color, typography } from './shared/styles';
+import PropTypes from 'prop-types';
+import React, { Fragment } from 'react';
+import styled from 'styled-components';
 import { easing } from './shared/animation';
+import { color, typography } from './shared/styles';
 
 const Text = styled.span`
   display: inline-block;
@@ -33,7 +33,8 @@ const SIZES = {
 };
 
 const StyledButton = styled.button`
-  border: 0;
+  border: 10px solid red;
+  font-size: 20px;
   border-radius: 3em;
   cursor: pointer;
   display: inline-block;
